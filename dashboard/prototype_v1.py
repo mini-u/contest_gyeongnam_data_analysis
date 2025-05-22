@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-# 타이틀틀
+# 타이틀
 st.title("프로토타입 레이아웃")
 
 # 분할
@@ -26,4 +26,4 @@ with right_col:
     st.divider()
 
     st.subheader("전략")
-    st.markdown("무슨전략을 제시하지지")
+    st.markdown("무슨전략을 제시하지")
