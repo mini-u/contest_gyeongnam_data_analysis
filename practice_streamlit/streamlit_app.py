@@ -20,4 +20,4 @@ st.subheader(f"{x_axis} vs {y_axis} 산점도 (품종별 색상)")
 
 fig, ax = plt.subplots()
 sns.scatterplot(data=df, x=x_axis, y=y_axis, hue="species", ax=ax)
-st.pyplot(fig)
+st.pyplot(fig) 
